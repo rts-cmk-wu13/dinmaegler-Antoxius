@@ -7,7 +7,7 @@ import Newsletter from "../components/Newsletter";
 import Udvalgte from "../components/Udvalgte";
 import Footer from "../components/Footer";
 
-export default function home(){
+export default function Home(){
 
     return(
         <>

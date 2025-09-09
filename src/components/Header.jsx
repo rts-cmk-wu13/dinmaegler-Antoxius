@@ -5,9 +5,9 @@ export default function Header(){
 
     return(
         <>
-        <header className="min-w-full relative container">
-            <div className="bg-[#0E1A2B] h-10 gap-5 items-center">
-                <div className="container justify-around py-2 flex mx-auto items-center">
+        <header className="w-full bg-white">
+            <div className="bg-[#0E1A2B] h-10 w-full">
+                <div className="max-w-6xl mx-auto flex justify-between items-center h-full px-4">
                     <div className="flex gap-5 text-white">
                         <div className="flex gap-2 items-center">
                             <FaPaperPlane />
@@ -24,7 +24,9 @@ export default function Header(){
                     </div>
                 </div>
             </div>
-                <Navigation />
+                <div className="w-full bg-white">
+                    <Navigation />
+                </div>
                 
         </header>
         </>
