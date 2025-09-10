@@ -21,10 +21,10 @@ export default function Sort({ homes }){
     };
 
     return (
-        <section className="container mx-auto my-10">
+        <section className="container mx-auto my-10 px-4 md:px-8 lg:px-16">
             <h2 className="mb-2 text-xl font-semibold border-b-4 border-[#0E1A2B] w-fit pb-1">Søg efter dit drømmehus</h2>
             <form className="flex flex-col md:flex-row gap-4 md:gap-6 items-end" role="search" aria-label="Boligsøgning">
-                <div className="flex flex-col w-full md:w-1/4">
+                <div className="flex-1 flex flex-col">
                     <label htmlFor="propertyType" className="mb-1 text-sm font-medium text-gray-700">Ejendomstype</label>
                     <div className="relative">
                         <select id="propertyType" name="propertyType" className="w-full h-12 border border-gray-300 rounded-lg pl-4 pr-10 appearance-none" aria-label="Vælg ejendomstype">
@@ -36,7 +36,7 @@ export default function Sort({ homes }){
                         </select>
                     </div>
                 </div>
-                <div className="flex-1 flex flex-col">
+                <div className="flex flex-col w-full md:w-1/4">
                     <label htmlFor="priceRange" className="font-medium text-gray-700">Pris-interval</label>
                     <div className="relative w-full flex flex-col justify-center">
                         <Range
