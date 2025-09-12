@@ -1,7 +1,6 @@
 import { useLoaderData } from "react-router";
 import { Link } from "react-router";
 import Sort from "../components/Sort";
-import Footer from "../components/Footer";
 const colors = {
     A: 'bg-green-500',
     B: 'bg-yellow-400',
@@ -48,7 +47,6 @@ export default function Property_List(){
         }
             </div>
         </div>
-        <Footer />
         </>
     )
 }

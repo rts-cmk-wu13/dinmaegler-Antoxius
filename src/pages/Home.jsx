@@ -5,7 +5,6 @@ import Hero from "../components/Hero";
 import Medarbejdere from "../components/Medarbejdere";
 import Newsletter from "../components/Newsletter";
 import Udvalgte from "../components/Udvalgte";
-import Footer from "../components/Footer";
 
 export default function Home(){
 
@@ -18,7 +17,6 @@ export default function Home(){
         <Newsletter />
         <Medarbejdere />
         <Ad />
-        <Footer />
         </>
     )
 }
